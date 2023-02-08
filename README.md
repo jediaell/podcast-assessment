@@ -18,13 +18,13 @@ moment.
 Clone the project
 
 ```bash
-  git clone .git
+  git clone https://github.com/jediaell/podcast-assessment.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd 
+  cd podcast-assessment
 ```
 
 Install dependencies

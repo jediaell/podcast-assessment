@@ -1,5 +1,5 @@
 import React from "react"
-import { useMemo, useCallback } from "react"
+import { useCallback } from "react"
 import { useAllPodcasts } from "../../hooks/useAllPodcasts"
 import { Podcast } from "../../types/podcastType"
 import { Link } from "react-router-dom"

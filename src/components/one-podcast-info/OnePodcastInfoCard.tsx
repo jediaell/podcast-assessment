@@ -1,7 +1,7 @@
 import React from "react"
 import { useOnePodcast } from "../../hooks/useOnePodcast"
 import { OnePodcastInfo, PodcastInfo } from "../../types/podcastType"
-import { Link, useNavigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 // @ts-ignore
 import { Bars } from "svg-loaders-react"
 
@@ -22,7 +22,6 @@ const OnePodcastInfoCard = ({ id }: Params) => {
   const { loading, error, podcast } = useOnePodcast(id)
   console.log(podcast)
 
-  const history = useNavigate()
 
   const calculateLenghtItems = (podcast: OnePodcastInfo) => {
     const length = podcast?.results.length

@@ -1,6 +1,4 @@
-import React from "react"
 import { useOnePodcastEpisode } from "../../hooks/useOnePodcastEpisode"
-import { useNavigate } from "react-router-dom"
 import {
   ComponentContainer,
   PodcasterInfo,
@@ -17,7 +15,6 @@ type Params = {
 
 const OneEpisode = ({ trackId, id }: Params) => {
   const { episode, loading, error } = useOnePodcastEpisode(id, trackId)
-  const history = useNavigate()
   return (
     <>
       {/* Go to previous page */}
