@@ -6,10 +6,12 @@ The application is a Single Page Application so navigation will be done
 always on client, without completely refreshing the main document at any
 moment.
 
+The application using Cypress for **E2E Tests** and **Components Tests**.
+
 
 ## Tech Stack
 
-**Client:** React18, Typescript, Styled-components and Cypress
+**Client:** React18, Typescript, Styled-components and Cypress.
 
 **Server:** [json file from iTunes podcast](https://itunes.apple.com/us/rss/toppodcasts/limit=100/genre=1310/json) 
 
